@@ -1,3 +1,3 @@
 Rekindr
 =========
-<a style="text-align:center" href="http://rekindr.com/">Life Preview</a>
+<a style="text-align:center" href="http://www.rekindr.com/">Life Preview</a>
