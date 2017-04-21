@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
 }
 h1,
 h2,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
 }
 h2 {
   font-size: 32px;
@@ -115,6 +115,7 @@ header .block .download-btn a {
   margin-bottom: 33px;
 }
 #feature .block .media:last-child {
+  margin-top: 25px;
   margin-bottom: 0;
 }
 #feature .block .media h4 {
@@ -215,4 +216,8 @@ footer .social-link ul li a {
   font-size: 25px;
   padding: 0 5px;
   display: inline-block;
+}
+
+#right_float {
+  float: right;
 }
