@@ -44,20 +44,31 @@ ul li {
   list-style: none;
 }
 header {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero-bg-plain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 header .app-showcase {
   text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+  header .app-showcase {
+    text-align: center;
+  }
+
+  .app-description {
+    text-align: center;
+  }
+}
+
 header .block {
   padding-top: 70px;
 }
 header .block .logo {
   display: inline-block;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 header .block h2 {
   margin-bottom: 15px;
@@ -71,6 +82,7 @@ header .block p {
 header .block .download-btn a {
   display: inline-block;
   margin-right: 10px;
+  margin-top: 30px;
 }
 #service {
   padding: 80px 0 100px;
@@ -95,7 +107,7 @@ header .block .download-btn a {
   padding: 0 20px;
 }
 #showcase {
-  background-image: url("../images/showcase-bg.jpg");
+  background-image: url("../images/hero-bg-2.png");
   background-size: cover;
   baxkground-repeat: no-repeat;
 }
@@ -118,6 +130,12 @@ header .block .download-btn a {
   margin-top: 25px;
   margin-bottom: 0;
 }
+
+#feature .block .media:last-child {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
 #feature .block .media h4 {
   color: #1b1b1b;
 }
@@ -128,7 +146,7 @@ header .block .download-btn a {
   padding-right: 20px;
 }
 #testimonial {
-  background-color: #EF698A;
+  background-image: url('.././images/hero-bg-plain.jpg');
   background-size: cover;
   padding: 100px 0;
 }
@@ -136,7 +154,7 @@ header .block .download-btn a {
   text-align: center;
 }
 #testimonial .block h5 {
-  background: rgba(0, 0, 0, 0.6);
+  /*background: rgba(0, 0, 0, 0.6);*/
   text-align: center;
   color: #fff;
   display: inline-block;
@@ -178,7 +196,7 @@ header .block .download-btn a {
   line-height: 1;
 }
 #team .media .pull-left {
-  padding-right: 25px;
+  padding-right: 5px;
 }
 #team .media .media-heading {
   margin-top: 5px;
@@ -189,7 +207,7 @@ header .block .download-btn a {
   color: #707b82;
 }
 footer {
-  padding: 60px 0;
+  padding: 30px 0;
   background: #fafafa;
   border-top: 1px solid #d7d7d7;
 }
@@ -218,6 +236,28 @@ footer .social-link ul li a {
   display: inline-block;
 }
 
-#right_float {
+/*#right_float {
   float: right;
+}*/
+
+#logo {
+  height: 80px;
+}
+
+#sub_title {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+#feed_screen {
+  margin-bottom: 10px;
+}
+
+.feature_set {
+  height: 50px;
+}
+
+#founder_img {
+  max-height: 88px;
+  max-width: 91px;
 }
