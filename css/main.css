@@ -108,6 +108,7 @@ header .block .download-btn a {
 }
 #showcase {
   background-image: url("../images/triple_background.png");
+  background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -146,7 +147,7 @@ header .block .download-btn a {
   padding-right: 20px;
 }
 #testimonial {
-  background-image: url('.././images/hero-bg-plain.jpg') no-repeat center center fixed;
+  background-image: url('.././images/hero-bg-plain.jpg');
   background-size: cover;
   padding: 100px 0;
 }
